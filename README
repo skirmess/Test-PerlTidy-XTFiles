@@ -44,7 +44,7 @@ USAGE
     The perltidy argument can be used to specify a specific .perltidyrc
     config file.
 
- all_file_ok
+ all_files_ok
 
     Calls the all_perl_files method of Test::XTFiles to get all the files
     to be tested. All files will be checked by calling is_file_tidy from

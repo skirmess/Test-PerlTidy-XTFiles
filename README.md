@@ -44,7 +44,7 @@ depending on this value.
 The `perltidy` argument can be used to specify a specific `.perltidyrc`
 config file.
 
-## all\_file\_ok
+## all\_files\_ok
 
 Calls the `all_perl_files` method of [Test::XTFiles](https://metacpan.org/pod/Test::XTFiles) to get all the files to
 be tested. All files will be checked by calling `is_file_tidy` from

@@ -101,7 +101,7 @@ depending on this value.
 The C<perltidy> argument can be used to specify a specific F<.perltidyrc>
 config file.
 
-=head2 all_file_ok
+=head2 all_files_ok
 
 Calls the C<all_perl_files> method of L<Test::XTFiles> to get all the files to
 be tested. All files will be checked by calling C<is_file_tidy> from
