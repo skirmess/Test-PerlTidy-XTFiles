@@ -79,7 +79,7 @@ Adds support for the L<XT::Files> interface to L<Test::PerlTidy>.
 Returns a new C<Test::PerlTidy::XTFiles> instance. C<new> takes an optional
 hash or list with its arguments.
 
-    Test::Pod::Links->new(
+    Test::PerlTidy::XTFiles->new(
         mute => 1,
         perltidyrc => 'the_perltidyrc_file_to_use',
     );
