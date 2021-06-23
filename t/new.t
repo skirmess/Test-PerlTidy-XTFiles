@@ -22,7 +22,7 @@ $obj = CLASS()->new( perltidyrc => 'nonexisting_file.txt', mute => 1 );
 isa_ok( $obj, CLASS(), 'new(...) returns a ' . CLASS() . ' object' );
 
 is( $obj->perltidyrc, 'nonexisting_file.txt', 'perltidyrc returnes the config file' );
-is( $obj->mute, 1, 'mute returnes 1' );
+is( $obj->mute,       1,                      'mute returnes 1' );
 
 #
 done_testing();
