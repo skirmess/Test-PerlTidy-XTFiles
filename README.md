@@ -13,7 +13,7 @@ Version 0.001
 
 # DESCRIPTION
 
-Adds support for the [XT::Files](https://metacpan.org/pod/XT::Files) interface to [Test::PerlTidy](https://metacpan.org/pod/Test::PerlTidy).
+Adds support for the [XT::Files](https://metacpan.org/pod/XT%3A%3AFiles) interface to [Test::PerlTidy](https://metacpan.org/pod/Test%3A%3APerlTidy).
 
 # USAGE
 
@@ -31,7 +31,7 @@ The following arguments are supported:
 
 ### mute (optional)
 
-By default, [Test::PerlTidy](https://metacpan.org/pod/Test::PerlTidy) will output diagnostics about any errors
+By default, [Test::PerlTidy](https://metacpan.org/pod/Test%3A%3APerlTidy) will output diagnostics about any errors
 reported by perltidy, as well as any actual differences found between the
 pre-tidied and post-tidied files. Set `mute` to a true value to turn off
 that diagnostic output.
@@ -46,9 +46,9 @@ config file.
 
 ## all\_files\_ok
 
-Calls the `all_perl_files` method of [Test::XTFiles](https://metacpan.org/pod/Test::XTFiles) to get all the files to
+Calls the `all_perl_files` method of [Test::XTFiles](https://metacpan.org/pod/Test%3A%3AXTFiles) to get all the files to
 be tested. All files will be checked by calling `is_file_tidy` from
-[Test::PerlTidy](https://metacpan.org/pod/Test::PerlTidy).
+[Test::PerlTidy](https://metacpan.org/pod/Test%3A%3APerlTidy).
 
 It calls `done_testing` or `skip_all` so you can't have already called
 `plan`.
@@ -56,13 +56,13 @@ It calls `done_testing` or `skip_all` so you can't have already called
 `all_files_ok` returns something _true_ if all files test ok and _false_
 otherwise.
 
-Please see [XT::Files](https://metacpan.org/pod/XT::Files) for how to configure the files to be checked.
+Please see [XT::Files](https://metacpan.org/pod/XT%3A%3AFiles) for how to configure the files to be checked.
 
 # EXAMPLES
 
 ## Example 1 Default usage
 
-Check all the files returned by [XT::Files](https://metacpan.org/pod/XT::Files) with [Test::PerlTidy](https://metacpan.org/pod/Test::PerlTidy).
+Check all the files returned by [XT::Files](https://metacpan.org/pod/XT%3A%3AFiles) with [Test::PerlTidy](https://metacpan.org/pod/Test%3A%3APerlTidy).
 
     use 5.006;
     use strict;
@@ -87,7 +87,7 @@ file in the root directory of your distribution.
 
 # SEE ALSO
 
-[Test::More](https://metacpan.org/pod/Test::More), [Test::PerlTidy](https://metacpan.org/pod/Test::PerlTidy), [XT::Files](https://metacpan.org/pod/XT::Files)
+[Test::More](https://metacpan.org/pod/Test%3A%3AMore), [Test::PerlTidy](https://metacpan.org/pod/Test%3A%3APerlTidy), [XT::Files](https://metacpan.org/pod/XT%3A%3AFiles)
 
 # SUPPORT
 
