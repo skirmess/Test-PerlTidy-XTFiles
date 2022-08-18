@@ -4,7 +4,7 @@ author:
   - 'Sven Kirmess <sven.kirmess@kzone.ch>'
 build_requires:
   Test::Builder::Tester: '0'
-  Test::MockModule: '0'
+  Test::MockModule: '0.14'
   Test::More: '0.88'
   constant: '0'
   lib: '0'
@@ -37,4 +37,3 @@ resources:
   homepage: https://github.com/skirmess/Test-PerlTidy-XTFiles
   repository: https://github.com/skirmess/Test-PerlTidy-XTFiles.git
 version: '0.001'
-x_spdx_expression: BSD-2-Clause-FreeBSD

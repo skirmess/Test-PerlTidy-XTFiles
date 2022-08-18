@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     },
     TEST_REQUIRES => {
         'Test::Builder::Tester' => 0,
-        'Test::MockModule'      => 0,
+        'Test::MockModule'      => '0.14',
         'Test::More'            => '0.88',
         constant                => 0,
         lib                     => 0,
@@ -39,7 +39,7 @@ my %FallbackPrereqs = (
     'Class::Tiny'           => '1',
     'Test::Builder'         => 0,
     'Test::Builder::Tester' => 0,
-    'Test::MockModule'      => 0,
+    'Test::MockModule'      => '0.14',
     'Test::More'            => '0.88',
     'Test::PerlTidy'        => 0,
     'Test::XTFiles'         => 0,
